@@ -62,12 +62,15 @@ while lscore.le_count<=10 and rscore.ri_count<=10 and is_game_on:
     elif ball.xcor()==380:
         lscore.le_count+=1
         lscore.left()
+        time.sleep(1)
         ball.rset()
+        
         
     elif ball.xcor()==-380:
         rscore.ri_count+=1
         
         rscore.right()
+        time.sleep(1)
         ball.rset()   
 
                        

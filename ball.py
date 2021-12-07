@@ -5,6 +5,7 @@ class Ball(Turtle):
         self.shape("circle")
         self.turtlesize(stretch_len=1,stretch_wid=1)
         self.color("white")
+        self.penup()
         self.y=10
         self.x=10
     def move(self):
